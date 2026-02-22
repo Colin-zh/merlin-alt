@@ -1,3 +1,8 @@
+# merlin资产文件夹，忽略上传大文件
+merlin/assets/checkpoints/
+merlin/assets/data/
+merlin/assets/runs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
