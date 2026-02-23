@@ -48,4 +48,4 @@ from .roberta import roberta_model                  # RoBERTa: 2019 (Liu et al.,
 
 # reinforcement learning models
 from .q_learning import q_learning_model            # Q-Learning: 1989 (Watkins, Machine Learning 1992)
-from .dqn import dqn_model                          # DQN: 2013 (Mnih
+from .dqn import dqn_model                          # DQN: 2013 (Mnih et al., Nature 2015, arXiv 2013)

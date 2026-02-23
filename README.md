@@ -27,45 +27,46 @@ Merlin-ALT 集成了一些常用基础的算法，附带学习和示例笔记，
 |||||
 |**Tabular**||||
 |LightGBM|lightgbm|[LightGBM](./merlin/charms/models/lightgbm/)||
-|TabNet|-|[TabNet](./merlin/charms/models/tabnet/TabNet.ipynb)||
-|Tab-Transformer|-|[Tab-Transformer](./merlin/charms/models/tab_transformer/TabTransformer.ipynb)||
-|FT-Transformer|-|[FT-Transformer](./merlin/charms/models/ft_transformer/FT-Transformer.ipynb)||
+|TabNet|-|[TabNet](./merlin/charms/models/tabnet/TabNet.ipynb)|[TabNet: Attentive Interpretable Tabular Learning](https://arxiv.org/abs/1908.07442)|
+|Tab-Transformer|-|[Tab-Transformer](./merlin/charms/models/tab_transformer/TabTransformer.ipynb)|[TabTransformer: Tabular Data Modeling Using Contextual Embeddings](https://arxiv.org/abs/2012.06678)|
+|FT-Transformer|-|[FT-Transformer](./merlin/charms/models/ft_transformer/FT-Transformer.ipynb)|[Revisiting Deep Learning Models for Tabular Data](https://arxiv.org/abs/2106.11959)|
 |||||
 |**Time-Series**||||
-|Prophet|prophet|[Prophet](./merlin/charms/models/prophet/prophet.ipynb)||
-|InFormer|-|[InFormer](./merlin/charms/models/informer/Informer.ipynb)||
+|Prophet|prophet|[Prophet](./merlin/charms/models/prophet/prophet.ipynb)|[Forecasting at Scale](https://peerj.com/preprints/3190/)|
+|InFormer|-|[InFormer](./merlin/charms/models/informer/Informer.ipynb)|[Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/pdf/2012.07436)|
 |||||
 |**Recommendation**||||
 |Logistic Regression|-|[LR](./merlin/charms/models/)||
 |Factorization Machine|-|[FM](./merlin/charms/models/fm/FM.ipynb)||
 |Field-Factorization Machine|-|[FFM](./merlin/charms/models/ffm/FFM.ipynb)||
-|Factorization-supported Neural Network|-|[FNN](./merlin/charms/models/fnn/FNN.ipynb)||
-|Product-based Neural Network|-|[PNN](./merlin/charms/models/pnn/PNN.ipynb)||
-|Wide & Deep|-|[Wide&Deep](./merlin/charms/models/widedeep/Wide&Deep.ipynb)||
-|Deep & Cross Network|-|[DCN](./merlin/charms/models/deepcross/DCN.ipynb)||
-|DeepFM|-|[DeepFM](./merlin/charms/models/deepfm/DeepFM.ipynb)||
-|Nerual Factorization Machine|-|[NFM](./merlin/charms/models/nfm/NFM.ipynb)||
-|Attentional Factorization|-|[AFM](./merlin/charms/models/afm/AFM.ipynb)||
-|Deep Interest Network|-|[DIN](./merlin/charms/models/deepinterest/DIN.ipynb)||
-|xDeepFM|-|[xDeepFM](./merlin/charms/models/xdeepfm/xDeepFM.ipynb)||
-|AutoInt|-|[AutoInt](./merlin/charms/models/autoint/AutoInt.ipynb)||
-|Deep Interest Evolution Network|-|[DIEN](./merlin/charms/models/dien/DIEN.ipynb)||
-|Behavior Sequence Transformer|-|[BST](./merlin/charms/models/bst/BST.ipynb)||
+|Factorization-supported Neural Network|-|[FNN](./merlin/charms/models/fnn/FNN.ipynb)|[Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](https://arxiv.org/pdf/1601.02376)|
+|Product-based Neural Network|-|[PNN](./merlin/charms/models/pnn/PNN.ipynb)|[Product-based Neural Networks for User Response Prediction](https://arxiv.org/pdf/1611.00144)|
+|Wide & Deep|-|[Wide&Deep](./merlin/charms/models/widedeep/Wide&Deep.ipynb)|[Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792)|
+|Deep & Cross Network|-|[DCN](./merlin/charms/models/deepcross/DCN.ipynb)|[Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123)|
+|DeepFM|-|[DeepFM](./merlin/charms/models/deepfm/DeepFM.ipynb)|[DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/abs/1703.04247)|
+|Nerual Factorization Machine|-|[NFM](./merlin/charms/models/nfm/NFM.ipynb)|[Neural Factorization Machines for Sparse Predictive Analytics](https://arxiv.org/pdf/1708.05027)|
+|Attentional Factorization|-|[AFM](./merlin/charms/models/afm/AFM.ipynb)|[Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks](http://www.ijcai.org/proceedings/2017/435)|
+|Deep Interest Network|-|[DIN](./merlin/charms/models/deepinterest/DIN.ipynb)|[Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978)|
+|xDeepFM|-|[xDeepFM](./merlin/charms/models/xdeepfm/xDeepFM.ipynb)|[xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/abs/1803.05170)|
+|AutoInt|-|[AutoInt](./merlin/charms/models/autoint/AutoInt.ipynb)|[AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/abs/1810.11921)|
+|Deep Interest Evolution Network|-|[DIEN](./merlin/charms/models/dien/DIEN.ipynb)|[Deep Interest Evolution Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1809.03672)|
+|Behavior Sequence Transformer|-|[BST](./merlin/charms/models/bst/BST.ipynb)|[Behavior Sequence Transformer for E-commerce Recommendation in Alibaba](https://arxiv.org/abs/1905.06874v1)|
 |||||
 |**Multi-Task**||||
-|Multi-gate Mixture-of-Experts|-|[MMOE](./merlin/charms/models/mmoe/MMOE.ipynb)||
-|Entire Space Multi-Task Model|-|[ESSM](./merlin/charms/models/esmm/ESMM.ipynb)||
-|Progressive Layered Extraction|-|[PLE](./merlin/charms/models/ple/PLE.ipynb)||
+|Multi-gate Mixture-of-Experts|-|[MMOE](./merlin/charms/models/mmoe/MMOE.ipynb)|[Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts](https://dl.acm.org/doi/abs/10.1145/3219819.3220007)|
+|Entire Space Multi-Task Model|-|[ESSM](./merlin/charms/models/esmm/ESMM.ipynb)|[Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate](https://arxiv.org/abs/1804.07931)|
+|Progressive Layered Extraction|-|[PLE](./merlin/charms/models/ple/PLE.ipynb)|[Progressive Layered Extraction (PLE): A Novel Multi-Task Learning (MTL) Model for Personalized Recommendations](https://dl.acm.org/doi/10.1145/3383313.3412236)|
 |||||
 |**Casual**||||
 |||||
+|Uplift|-|[Uplift](./merlin/charms/models/uplift/Uplift.ipynb)|[Theoretical Impediments to Machine Learning With Seven Sparks from the Causal Revolution](https://arxiv.org/abs/1801.04016)|
 |**Graph**||||
-|LPA|-|[LPA](./merlin/charms/models/lpa/LPA.ipynb)||
-|Louvain|-|[Louvain](./merlin/charms/models/louvain/Louvain.ipynb)||
-|GCN|-|[GCN](./merlin/charms/models/gcn/GCN.ipynb)||
-|Graphsage|-|[Graphsage](./merlin/charms/models/graphsage/GraphSAGE.ipynb)||
-|GAT|-|[GAT](./merlin/charms/models/gat/GAT.ipynb)||
-|Leiden|-|[Leiden](./merlin/charms/models/leiden/Leiden.ipynb)||
+|LPA|-|[LPA](./merlin/charms/models/lpa/LPA.ipynb)|[Near linear time algorithm to detect community structures in large-scale networks](https://arxiv.org/abs/0709.2938)|
+|Louvain|-|[Louvain](./merlin/charms/models/louvain/Louvain.ipynb)|[Fast unfolding of communities in large networks](https://arxiv.org/pdf/0803.0476)|
+|GCN|-|[GCN](./merlin/charms/models/gcn/GCN.ipynb)|[Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)|
+|Graphsage|-|[Graphsage](./merlin/charms/models/graphsage/GraphSAGE.ipynb)|[Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216)|
+|GAT|-|[GAT](./merlin/charms/models/gat/GAT.ipynb)|[Graph Attention Networks](https://arxiv.org/abs/1710.10903)|
+|Leiden|-|[Leiden](./merlin/charms/models/leiden/Leiden.ipynb)|[From Louvain to Leiden: guaranteeing well-connected communities](https://arxiv.org/abs/1810.08473)|
 |||||
 |**NLP**||||
 |BERT|-|[BERT](./merlin/charms/models/)||
@@ -74,8 +75,8 @@ Merlin-ALT 集成了一些常用基础的算法，附带学习和示例笔记，
 |LoRA|-|[LoRA](./merlin/charms/models/)||
 |||||
 |**RL**||||
-|Q-Learning 🔥🔥|- |[Q-learning](./merlin/charms/models/q_learning/Q-Learning.ipynb)||
-|DQN|- |[DQN](./merlin/charms/models/dqn/DQN.ipynb)||
+|Q-Learning 🔥🔥|- |[Q-learning](./merlin/charms/models/q_learning/Q-Learning.ipynb)|[Q-learning](https://link.springer.com/article/10.1007/bf00992698)|
+|DQN|- |[DQN](./merlin/charms/models/dqn/DQN.ipynb)|[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)|
 
 
 ## 引用或参考
