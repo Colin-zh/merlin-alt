@@ -36,9 +36,9 @@ Merlin-ALT 集成了一些常用基础的算法，附带学习和示例笔记，
 |InFormer|-|[InFormer](./merlin/charms/models/informer/Informer.ipynb)|[Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/pdf/2012.07436)|
 |||||
 |**Recommendation**||||
-|Logistic Regression|-|[LR](./merlin/charms/models/)||
-|Factorization Machine|-|[FM](./merlin/charms/models/fm/FM.ipynb)||
-|Field-Factorization Machine|-|[FFM](./merlin/charms/models/ffm/FFM.ipynb)||
+|Logistic Regression|-|[LR](./merlin/charms/models/lr/LR.ipynb)||
+|Factorization Machine|-|[FM](./merlin/charms/models/fm/FM.ipynb)|[Factorization Machines (Steffen Rendle, 2010)](https://www.ismll.uni-hildesheim.de/pub/pdfs/Rendle2010FM.pdf)|
+|Field-Factorization Machine|-|[FFM](./merlin/charms/models/ffm/FFM.ipynb)|[Field-aware Factorization Machines for CTR Prediction](https://www.csie.ntu.edu.tw/~cjlin/papers/ffm.pdf)|
 |Factorization-supported Neural Network|-|[FNN](./merlin/charms/models/fnn/FNN.ipynb)|[Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](https://arxiv.org/pdf/1601.02376)|
 |Product-based Neural Network|-|[PNN](./merlin/charms/models/pnn/PNN.ipynb)|[Product-based Neural Networks for User Response Prediction](https://arxiv.org/pdf/1611.00144)|
 |Wide & Deep|-|[Wide&Deep](./merlin/charms/models/widedeep/Wide&Deep.ipynb)|[Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792)|
@@ -69,14 +69,15 @@ Merlin-ALT 集成了一些常用基础的算法，附带学习和示例笔记，
 |Leiden|-|[Leiden](./merlin/charms/models/leiden/Leiden.ipynb)|[From Louvain to Leiden: guaranteeing well-connected communities](https://arxiv.org/abs/1810.08473)|
 |||||
 |**NLP**||||
-|BERT|-|[BERT](./merlin/charms/models/)||
-|GPT|-|[GPT](./merlin/charms/models/)||
-|RoBERTa|-|[RoBERTa](./merlin/charms/models/)||
-|LoRA|-|[LoRA](./merlin/charms/models/)||
+|BERT|-|[BERT](./merlin/charms/models/)|[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)|
+|GPT|-|[GPT](./merlin/charms/models/)|[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)|
+|RoBERTa|-|[RoBERTa](./merlin/charms/models/)|[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)|
+|LoRA|-|[LoRA](./merlin/charms/models/)|[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)|
 |||||
 |**RL**||||
-|Q-Learning 🔥🔥|- |[Q-learning](./merlin/charms/models/q_learning/Q-Learning.ipynb)|[Q-learning](https://link.springer.com/article/10.1007/bf00992698)|
+|Q-Learning|- |[Q-learning](./merlin/charms/models/q_learning/Q-Learning.ipynb)|[Q-learning](https://link.springer.com/article/10.1007/bf00992698)|
 |DQN|- |[DQN](./merlin/charms/models/dqn/DQN.ipynb)|[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)|
+|DPO 🔥🔥|- |[DPO](./merlin/charms/models/)|[Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)|
 
 
 ## 引用或参考

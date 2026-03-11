@@ -10,7 +10,7 @@ See LICENSE for full license terms.
 """
 
 import warnings
-from abc import ABCMeta, abstractmethod
+from abc import ABCMeta
 from typing import Any, Callable, Dict, List, Optional, Tuple, Type, Union
 
 import numpy as np
@@ -40,13 +40,25 @@ class BaseModel(nn.Module, metaclass=ABCMeta):
         """
         super().__init__()
         self.hparams = config
-        self._build_model()
+        # Allow subclasses to either implement `_build_model` (preferred)
+        # or the older `_build_network` hook for backward compatibility.
+        if hasattr(self, "_build_model"):
+            try:
+                self._build_model()
+            except NotImplementedError:
+                self._call_legacy_build()
+        else:
+            self._call_legacy_build()
         self._setup_loss()
     
-    @abstractmethod
     def _build_model(self):
-        """Build the model architecture."""
-        pass
+        """Build the model architecture. Subclasses should override."""
+        raise NotImplementedError("Subclasses must implement _build_model or _build_network")
+
+    def _call_legacy_build(self):
+        if hasattr(self, "_build_network"):
+            return self._build_network()
+        raise NotImplementedError("No build method found. Implement _build_model or _build_network")
 
     @property
     def backbone(self):
